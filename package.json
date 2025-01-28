@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "flowbite": "^3.0.0"
+  },
+  "name": "ass15",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch",
+    "build": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css -m"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": ""
+}
